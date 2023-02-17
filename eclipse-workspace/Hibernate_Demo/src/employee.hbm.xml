@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hibernate-mapping>
+<class name="com.demo.Employee" table="employee">
+<id name="id">
+<generator class="identity"></generator>
+</id>
+
+<property name="username" column="Username"></property>
+<property name="password"></property>
+</class>
+
+</hibernate-mapping>
